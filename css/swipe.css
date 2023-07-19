@@ -27,7 +27,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     border: 2px solid yellow; /* Borrar al final */
 }
 
@@ -41,14 +40,14 @@ body {
     grid-template-columns: 10% 10% 40% 10% 10%;
     grid-template-rows: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border: 2px solid blue;
 }
 
 /* LOGO SWIPE */
 .logo-swipe {
     display:inline-block;
-    margin: 0.1em 0 1.em 0.75em;
+    margin: 0.1em 0 1em 0.75em;
     width: 4.6rem;
     height: 4rem;
     grid-column-start: 1;
@@ -58,8 +57,8 @@ body {
 /* NAVBAR */
 .navbar {
     display: flex;
-    padding: 0.5em 1em;
-    margin-bottom: 0.3rem;
+    padding: 0.5em 0.5em;
+    margin: 0.3em 0 0.3rem 7em;
     box-sizing: border-box;
     position: fixed;
     width: 70%;
@@ -242,16 +241,16 @@ h1.headline {
     width: 100%;
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content: start;
     align-items:center;
     box-sizing: border-box;
-    padding: 0 1em;
+    padding: 0 1em 1em 0;
     border: 2px solid aqua;
 }
 
 /* INFORMACIÓN DE LA COLUMNA 1 */
 .info-left {
-    width: 100%;
+    width: 35em;
     padding: 1.8em;
     border: 5px solid black;
 }
@@ -337,7 +336,7 @@ button.btn-start {
     display: flex;
     margin-top: 1rem;
     align-self:center;
-    width: 19.6em;
+    width: 19.8em;
 }
 
 .logos-section {
@@ -363,7 +362,7 @@ button.btn-start {
 }
 
 .logos-grid .item {
-    width: 100%;
+    width: 95%;
 }
 
 @media screen and (max-width: 2560px) {
@@ -381,7 +380,7 @@ button.btn-start {
         grid-template-columns: 10% 10% 40% 10% 10%;
         grid-template-rows: 100%;
         display: flex;
-        justify-content:center;
+        justify-content:space-between;
     }
     .nav{
         display: none;
@@ -399,7 +398,7 @@ button.btn-start {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 1em 1em 1em 2.5em;
+        margin: 1em 0.8em 1em 2.5em;
         border-radius: 1.12em;;
         border: none;
         width: 3.4em;
@@ -410,7 +409,7 @@ button.btn-start {
         width:1.2em ;
     }
     .logo-swipe {
-        margin-left: 0.1em;
+        margin-left: 1em;
         width: 4.2rem;
         height: 4rem;
     }
@@ -423,17 +422,18 @@ button.btn-start {
     .container-hero {
         width: 100%;
         height: 33.6em;
+        margin-top: 1em;
     }
     .column-left {
-    width: 35.8em;
+    width: 35em;
     position: relative;
     display: flex;
     justify-content:baseline;
     }
     .info-left {
     width: 34em;
-    height: 33em;
-    justify-content: center;
+    height: 30em;
+    justify-content:center;
     }
     h1.headline {
     font-size: 3.5em;
@@ -449,18 +449,20 @@ button.btn-start {
     }
     .container-btn {
         display: grid;
-        grid-template-columns: 44% 56% ;
+        grid-template-columns: 33% 67% ;
         align-items:flex-start;
         margin: 0.em 0 5.7em;
         padding-top: 1.59em; 
     }
     .column-right {
-        width: 20em;
+        width: 15.9em;
+        height: 33em;
+        justify-content: center;
     }
     .phone-img {
-    display: flex;
+    /* display: flex; */
     margin-top: 0.5rem;
-    align-self:center;
+    margin-right: 1.5em;
     width: 15.8em;
     }
 }
