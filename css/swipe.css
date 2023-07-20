@@ -163,15 +163,31 @@ ul {
 }
 
 #gradient-canvas {
+    z-index: -1;
     width: 200%;
     height: 60.6em;
     transform: rotate(-10deg);
     position: absolute;
     top: -37.5em;
     left: -50%;
-    z-index: -1;
-    background-color: #d649f5;
+    background: radial-gradient(ellipse at center, rgb(224, 39, 212), blueviolet, rgb(68, 205, 255), rgb(233, 226, 88), rgb(250, 180, 2)), rgb(50, 122, 205);
+    background-size: 600% 600%; /* Aumentamos el tamaño del gradiente para crear el efecto de movimiento */
+    animation: animate 25s linear infinite; /* Utilizamos "linear" para una animación uniforme */
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 0%;
+    } 
+    100% {
+        background-position: 100% 100%; /* Movemos los colores al 100% del eje X y Y */
     }
+}
+
+
+
+
+
 
 
 /* ENCABEZADO */
