@@ -435,6 +435,7 @@ button.btn-start {
     position: relative;
     display: flex;
     justify-content:baseline;
+    /* margin-left: 1em; */
     }
     .info-left {
     width: 34em;
@@ -473,7 +474,10 @@ button.btn-start {
     }
 }
 
-@media screen and (max-width: 320px) {
+
+
+
+@media screen and (max-width: 375px) {
     .column-right {
         display: none;
     }
@@ -485,11 +489,64 @@ button.btn-start {
         padding: 0 1em 0 1em;
     }
     h1.headline {
-        font-size: 3em;
+        width: 20em;
+        font-size: 3.5em;
         letter-spacing: -0.30;
     }
     p.p-left {
-        font-size: 1em;
+        font-size: 1.10em;
+        margin: 1em 0;
+        width: 20em;
+        height: 6.5em;
+    }
+    .container-btn {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        align-items: center;
+    }
+    button.btn-start {
+        width: 7.1em;
+        height: 3.5em;
+        text-align: justify;
+        padding: 0.5em 1em;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .btn-contact-sales {
+        width: 6em;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .logos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 1em;
+        margin-bottom: 4em;  
+    }
+    .logos-grid .item {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .column-right {
+        display: none;
+    }
+    .column-left {
+        width: 18em;
+    }
+    .info-left {
+        width: 21em;
+        padding: 0 1em 0 1em;
+    }
+    h1.headline {
+        font-size: 3.5em;
+        letter-spacing: -0.30;
+    }
+    p.p-left {
+        font-size: 1.11em;
         margin: 1em 0;
         width: 16em;
     }
@@ -515,11 +572,13 @@ button.btn-start {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        column-gap: 0.9em;
-        row-gap: 2em;
+        column-gap: 1em;
+        row-gap: 1em;
+        margin-top: 2.5em;
         margin-bottom: 4em;  
     }
     .logos-grid .item {
         width: 97%;
     }
 }
+
