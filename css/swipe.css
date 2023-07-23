@@ -285,7 +285,7 @@ ul {
     grid-template-columns: 33% 67% ;
 }
 
-button.btn-start {
+.btn-start {
     background-color: black;
     color: white;
     border: none;
@@ -665,10 +665,17 @@ img.start-flecha1 {
 
 /* <-- UNIFIED PLATFORM = UP --> */
 .background-2 {
-    background-color: #f7f9fc;
+    background-color: #0A2540;
     font-size: 16px;
-
+    z-index: -1;
 }
+.bgf-section2 {
+    width: 100%;
+    background-color: #f7f9fc;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+    z-index: -1;
+}
+
 
 .section-up {
     display: flex;
@@ -676,13 +683,13 @@ img.start-flecha1 {
     align-content: center;
     max-width: 1024px;
     margin: 0 auto;
-    border: 2px solid black;
+    position: relative;
 }
 
 .container-up {
     width: 93%;
-    padding: 0 0.1em;
-    /* border: 2px solid red; */
+    padding: 0 0.1em; 
+
 }
 .subtitle {
     color:#6762F7;
@@ -690,14 +697,12 @@ img.start-flecha1 {
     font-size: 1.06em;
     line-height:1.6em;
     margin: 1.3em 0.9em;
-    /* border: 2px solid green; */
 }
 .h2-section2 {
    font-size: 2em;
    font-weight: 700;
    line-height: 1.4;
    margin: 0.5em 0.31em 1em 0.4em;
-   /* border: 2px solid purple; */
 }
 
 .col-left2 p {
@@ -736,7 +741,7 @@ img.start-flecha1 {
     align-items:center;
     justify-content: center;  
     margin: 2em 0;
-    margin-bottom: 5.5em;
+    margin-bottom: 3em;
     overflow: hidden;
 }
 
@@ -759,15 +764,42 @@ img.start2-flecha2 {
     width: 100%;
     display:flex;
     justify-content: center;
+    overflow: hidden;
 }
 .container-imgs2 {
     width: 100%;
-    padding: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* .grid-imgs2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:3em 1em 1em;
-    grid-gap: 1em;
-    padding: 1em 0;
-}  */
+.grid-imgs2 {
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    row-gap:1em;
+    column-gap:0.5em ;
+    overflow: hidden;
+}
+.card {
+    grid-area:1/1/3/3;
+    width: 80%;
+}
+.slack {
+    grid-area: 1/3/4/7;
+    width:80%;
+    border-radius: 1em;
+}
+.phone2 {
+    grid-area: 2/1/4/3;
+    width: 80%;
+    margin-top: 1em;
+}
+.dash {
+    grid-area: 3/3/7/7;
+    width: 80%;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+
