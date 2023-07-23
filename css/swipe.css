@@ -674,9 +674,6 @@ img.start-flecha1 {
     clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
     z-index: -1;
 }
-
-
-
 .section-up {
     display: flex;
     justify-content: center;
@@ -685,11 +682,9 @@ img.start-flecha1 {
     margin: 0 auto;
     position: relative;
 }
-
 .container-up {
     width: 93%;
     padding: 0 0.1em; 
-
 }
 .subtitle {
     color:#6762F7;
@@ -704,29 +699,24 @@ img.start-flecha1 {
     line-height: 1.4;
     margin: 0.5em 0.31em 1em 0.4em;
 }
-
 .col-left2 p {
     font-size: 1.05em;
     margin: 1em 0.51em;
 }
-
 .col-left2 a {
     color: #6762F7;
     text-decoration: none;
     font-weight: 500;
 }
-
 .col-right2 p {
     font-size: 1.05em;
     margin: 1em 0.51em;
 }
-
 .col-right2 a {
     color: #6762F7;
     text-decoration: none;
     font-weight: 500;
 }
-
 .btn-start2 {
     background-color:#6762F7;
     color: white;
@@ -744,7 +734,6 @@ img.start-flecha1 {
     margin-bottom: 3em;
     overflow: hidden;
 }
-
 .btn-start2:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -752,14 +741,12 @@ img.start-flecha1 {
     border-bottom: blueviolet;
     color:greenyellow;
 }
-
 img.start2-flecha2 {
     transition: ease-in-out 0.4s;
 }
 .btn-start2:hover .start2-flecha2 {
     transform: translateX(0.31em);
 }
-
 .imgs-section2 {
     width: 100%;
     display:flex;
@@ -804,7 +791,6 @@ img.start2-flecha2 {
 }
 
 @media screen and (min-width: 768px) {
-
     .container-up {
         width: 97%;
         padding: 0 0.1em; 
@@ -817,16 +803,13 @@ img.start2-flecha2 {
     grid-template-columns: 50% 50%;
     column-gap: 1em;
     }
-
     .subtitle {
     margin-top: 4em;
     margin-left: 0;
     }
-
     .h2-section2 br {
     display: none;
     }
-
     .h2-section2 {
     width: 100%;
     font-size: 2.12em;
@@ -868,11 +851,9 @@ img.start2-flecha2 {
         height: 76%;
         border-radius: 0.5;
     }
-
     .phone2 {
         height: 97;
     }
-
     .dash {
         margin-top: 2em;
         width: 98%;
@@ -883,5 +864,5 @@ img.start2-flecha2 {
         background-color: #f7f9fc;
         clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
         z-index: -1;
-}
+    }
 }
