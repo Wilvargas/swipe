@@ -294,10 +294,11 @@ button.btn-start {
     height: 2.37em;
     font-size: 1rem;
     font-weight: bold;
-    /* letter-spacing: 0.07em; */
+    letter-spacing: 0.07em;
     display: flex;
     align-items:center;
-    justify-content: center;    
+    justify-content: center; 
+    overflow: hidden;   
 }
 
 .btn-start:hover {
@@ -305,11 +306,16 @@ button.btn-start {
     cursor: pointer;
     background-color: rgb(42, 42, 42);
     border-bottom: blueviolet;
-    transform: translateX(0.31em);
     color:greenyellow;
-    transition: ease-in-out 0.4s;
 }
 
+img.start-flecha1 {
+    transition: ease-in-out 0.4s;
+    
+} 
+.btn-start:hover .start-flecha1 {
+    transform: translateX(0.31em);
+}
 
 .btn-contact-sales {
     background-color: transparent;
@@ -722,7 +728,7 @@ button.btn-start {
     color: white;
     border: none;
     border-radius: 1.12em;
-    width: 8em;
+    width: 8.62em;
     height: 2.37em;
     font-size: 1rem;
     font-weight: bold;
@@ -732,6 +738,7 @@ button.btn-start {
     justify-content: center;  
     margin: 2em 0;
     margin-bottom: 5.5em;
+    overflow: hidden;
 }
 
 .btn-start2:hover {
@@ -739,10 +746,16 @@ button.btn-start {
     cursor: pointer;
     background-color: black;
     border-bottom: blueviolet;
-    transform: translateX(0.31em);
     color:greenyellow;
+}
+
+img.start2-flecha2 {
     transition: ease-in-out 0.4s;
 }
+.btn-start2:hover .start2-flecha2 {
+    transform: translateX(0.31em);
+}
+
 .imgs-section2 {
     width: 100%;
     display:flex;
@@ -752,10 +765,10 @@ button.btn-start {
     width: 100%;
     padding: 0 1em;
 }
-.grid-imgs2 {
+/* .grid-imgs2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:3em 1em 1em;
     grid-gap: 1em;
     padding: 1em 0;
-} 
+}  */
