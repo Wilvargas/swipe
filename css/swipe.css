@@ -11,12 +11,6 @@ html {
     font-size: 16px;
     overflow-x:hidden ;
 }
-
-/* Ancho del body = 100% del contenedor padre */
-/* el posicionamiento de elementos dentro del body se realizará en relación con su posición normal en el flujo del documento */
-/* oculta el desplazamiento horizontal del body */
-
-
 body {
     width: 100%; 
     position: relative; 
@@ -29,7 +23,6 @@ body {
     justify-content: center;
     /* border: 2px solid yellow; Borrar al final */
 }
-
 .header {
     /* background-color: purple;
     box-shadow: 1px 1px 5px 0px purple; */
@@ -664,19 +657,18 @@ img.start-flecha1 {
 
 /* <-- UNIFIED PLATFORM = UP --> */
 .background-2 {
+    position: relative;
     background-color: #0A2540;
     font-size: 16px;
-    z-index: -1;
+    z-index: 1;
 }
 .bgf-section2 {
+    position: absolute;
     width: 100%;
     background-color: #f7f9fc;
     clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
     z-index: -1;
 }
-
-
-
 .section-up {
     display: flex;
     justify-content: center;
@@ -685,7 +677,6 @@ img.start-flecha1 {
     margin: 0 auto;
     position: relative;
 }
-
 .container-up {
     width: 93%;
     padding: 0 0.1em; 
@@ -817,16 +808,13 @@ img.start2-flecha2 {
     grid-template-columns: 50% 50%;
     column-gap: 1em;
     }
-
     .subtitle {
     margin-top: 4em;
     margin-left: 0;
     }
-
     .h2-section2 br {
     display: none;
     }
-
     .h2-section2 {
     width: 100%;
     font-size: 2.12em;
@@ -868,11 +856,9 @@ img.start2-flecha2 {
         height: 76%;
         border-radius: 0.5;
     }
-
     .phone2 {
         height: 97;
     }
-
     .dash {
         margin-top: 2em;
         width: 98%;
