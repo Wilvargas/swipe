@@ -21,11 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 2px solid yellow; Borrar al final */
 }
 .header {
-    /* background-color: purple;
-    box-shadow: 1px 1px 5px 0px purple; */
     position: sticky;
     top: 0;
     width: 100%;
@@ -37,7 +34,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 /* LOGO SWIPE */
 .logo-swipe {
     display:inline-block;
@@ -46,7 +42,6 @@ body {
     height: 4rem;
     grid-column-start: 1;
 }
-
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -61,17 +56,13 @@ body {
     overflow: hidden;
     max-height: 8rem;
     transition: max-height .4s ease-out;
-    /* border: 2px solid orange; */
 }
-
 ul {
     list-style-type: none;
 }
-
 ul {
     display: flex;
 }
-
 
 /* ITEMS - OPTIONS NAV */
 .menu li {
@@ -80,7 +71,6 @@ ul {
     justify-content: center;
     grid-column-start: 3;    
 }
-
 .menu a {
     display: flex;
     padding: 0.50em;
@@ -92,7 +82,6 @@ ul {
     font-size: 1em; 
     font-weight: bold;
 }
-
 .menu a:hover {
     text-decoration: underline;
     color: rgb(59, 15, 100)
@@ -105,16 +94,13 @@ ul {
     padding: 2.5em 1.25em;
     border: 2px solid thistle;
 }
-
 .hamb-line {
     background-color: white;
     display: block;
     width: 1.5em;
     height: 0.12em;
-    position: relative;
-    
+    position: relative;   
 }
-
 .hamb-line::before, .hamb-line::after {
     background-color: white;
     content: "";
@@ -124,37 +110,29 @@ ul {
     transition: all 0.5s ease-out;
     width: 100%;
 }
-
 .hamb-line::before {
     top:5px;
 }
-
 .hamb-line::after {
     top:-5px;
 }
-
 .side-menu {
     display: none;
 }
-
 .side-menu:checked ~nav {
     max-height: 100%;
 }
-
 .side-menu:checked ~.hamb .hamb-line {
     background-color: transparent;
 }
-
 .side-menu:checked ~.hamb .hamb-line::before {
     transform: rotate(-45deg);
     top: 0;
 }
-
 .side-menu:checked ~.hamb .hamb-line::after {
     transform: rotate(45deg);
     top: 0;
 }
-
 #gradient-canvas {
     z-index: -1;
     width: 200%;
@@ -184,16 +162,13 @@ ul {
     font-family: "Anek Telugu";
     line-height: 1.1;
     letter-spacing: -1;
-    /* border: 2px solid yellow; */
 }
-
 .p-left {
     font-family:"Roboto";
     font-size: 1.12em;
     font-weight: 400;
     color: #000;
     margin: 1em 0; 
-    /* border: 2px solid yellow; */
 }
 /* BUTTON SING-IN - NAV */
 .btn.btn-dark {
@@ -214,7 +189,6 @@ ul {
     margin: 1em 0 0 3em;
     box-sizing: border-box;
 }
-
 .btn:hover {
     background-color:whitesmoke;
     border-color: #a600ff;
@@ -238,9 +212,7 @@ ul {
     width: 100%;
     justify-content:center;
     box-sizing: border-box;
-    /* border: 5px solid red; */
 }
-
 
 /* COLUMNA IZQUIERDA */
 .column-left {
@@ -251,16 +223,13 @@ ul {
     align-items:center;
     box-sizing: border-box;
     padding: 0 1em 1em 0;
-    /* border: 2px solid aqua; */
 }
 
 /* INFORMACIÓN DE LA COLUMNA 1 */
 .info-left {
     width: 35em;
     padding: 1.8em;
-    /* border: 5px solid black; */
 }
-
 .container-btn {
     width: 100%;
     height: 3.12em;
@@ -269,12 +238,10 @@ ul {
     margin: 0.12em 0;
     padding-top: 1.56em; 
 }
-
 .container-btn {
     display: grid;
     grid-template-columns: 33% 67% ;
 }
-
 .btn-start {
     background-color: black;
     color: white;
@@ -302,7 +269,6 @@ img.start-flecha1 {
 .btn-start:hover .start-flecha1 {
     transform: translateX(0.31em);
 }
-
 .btn-contact-sales {
     background-color: transparent;
     border: none;
@@ -316,12 +282,10 @@ img.start-flecha1 {
     align-items:center;
     justify-content:center;
 }
-
 .btn-contact-sales a {
     text-decoration: none;
     color: #7000ff;
 }
-
 .btn-contact-sales:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -336,16 +300,13 @@ img.start-flecha1 {
     height: 37.5em;
     display: flex;
     justify-content:flex-end;
-    /* border: 3px solid yellow; */
 }
-
 .phone-img {
     display: flex;
     margin-bottom: 2em;
     align-self:center;
     width: 19.8em;
 }
-
 .logos-section {
     width: 100%;
     display: flex;
