@@ -21,8 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid yellow; Borrar al final */
 }
 .header {
+    /* background-color: purple;
+    box-shadow: 1px 1px 5px 0px purple; */
     position: sticky;
     top: 0;
     width: 100%;
@@ -33,6 +36,7 @@ body {
     grid-template-rows: 100%;
     display: flex;
     justify-content: space-between;
+    /* border: 2px solid blue; */
 }
 
 /* LOGO SWIPE */
@@ -42,6 +46,7 @@ body {
     width: 4.6rem;
     height: 4rem;
     grid-column-start: 1;
+    /* border: 2px solid mediumaquamarine; */
 }
 
 /* NAVBAR */
@@ -58,13 +63,17 @@ body {
     overflow: hidden;
     max-height: 8rem;
     transition: max-height .4s ease-out;
+    /* border: 2px solid orange; */
 }
+
 ul {
     list-style-type: none;
 }
+
 ul {
     display: flex;
 }
+
 
 /* ITEMS - OPTIONS NAV */
 .menu li {
@@ -73,6 +82,7 @@ ul {
     justify-content: center;
     grid-column-start: 3;    
 }
+
 .menu a {
     display: flex;
     padding: 0.50em;
@@ -84,6 +94,7 @@ ul {
     font-size: 1em; 
     font-weight: bold;
 }
+
 .menu a:hover {
     text-decoration: underline;
     color: rgb(59, 15, 100)
@@ -96,6 +107,7 @@ ul {
     padding: 2.5em 1.25em;
     border: 2px solid thistle;
 }
+
 .hamb-line {
     background-color: white;
     display: block;
@@ -104,6 +116,7 @@ ul {
     position: relative;
     
 }
+
 .hamb-line::before, .hamb-line::after {
     background-color: white;
     content: "";
@@ -113,29 +126,37 @@ ul {
     transition: all 0.5s ease-out;
     width: 100%;
 }
+
 .hamb-line::before {
     top:5px;
 }
+
 .hamb-line::after {
     top:-5px;
 }
+
 .side-menu {
     display: none;
 }
+
 .side-menu:checked ~nav {
     max-height: 100%;
 }
+
 .side-menu:checked ~.hamb .hamb-line {
     background-color: transparent;
 }
+
 .side-menu:checked ~.hamb .hamb-line::before {
     transform: rotate(-45deg);
     top: 0;
 }
+
 .side-menu:checked ~.hamb .hamb-line::after {
     transform: rotate(45deg);
     top: 0;
 }
+
 #gradient-canvas {
     z-index: -1;
     width: 200%;
@@ -165,13 +186,16 @@ ul {
     font-family: "Anek Telugu";
     line-height: 1.1;
     letter-spacing: -1;
+    /* border: 2px solid yellow; */
 }
+
 .p-left {
     font-family:"Roboto";
     font-size: 1.12em;
     font-weight: 400;
     color: #000;
     margin: 1em 0; 
+    /* border: 2px solid yellow; */
 }
 /* BUTTON SING-IN - NAV */
 .btn.btn-dark {
@@ -192,6 +216,7 @@ ul {
     margin: 1em 0 0 3em;
     box-sizing: border-box;
 }
+
 .btn:hover {
     background-color:whitesmoke;
     border-color: #a600ff;
@@ -215,7 +240,9 @@ ul {
     width: 100%;
     justify-content:center;
     box-sizing: border-box;
+    /* border: 5px solid red; */
 }
+
 
 /* COLUMNA IZQUIERDA */
 .column-left {
@@ -226,13 +253,16 @@ ul {
     align-items:center;
     box-sizing: border-box;
     padding: 0 1em 1em 0;
+    /* border: 2px solid aqua; */
 }
 
 /* INFORMACIÓN DE LA COLUMNA 1 */
 .info-left {
     width: 35em;
     padding: 1.8em;
+    /* border: 5px solid black; */
 }
+
 .container-btn {
     width: 100%;
     height: 3.12em;
@@ -241,10 +271,12 @@ ul {
     margin: 0.12em 0;
     padding-top: 1.56em; 
 }
+
 .container-btn {
     display: grid;
     grid-template-columns: 33% 67% ;
 }
+
 .btn-start {
     background-color: black;
     color: white;
@@ -259,6 +291,7 @@ ul {
     justify-content: center; 
     overflow: hidden;   
 }
+
 .btn-start:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -266,6 +299,7 @@ ul {
     border-bottom: blueviolet;
     color:greenyellow;
 }
+
 img.start-flecha1 {
     transition: ease-in-out 0.4s;
     
@@ -273,6 +307,7 @@ img.start-flecha1 {
 .btn-start:hover .start-flecha1 {
     transform: translateX(0.31em);
 }
+
 .btn-contact-sales {
     background-color: transparent;
     border: none;
@@ -286,10 +321,12 @@ img.start-flecha1 {
     align-items:center;
     justify-content:center;
 }
+
 .btn-contact-sales a {
     text-decoration: none;
     color: #7000ff;
 }
+
 .btn-contact-sales:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -304,24 +341,31 @@ img.start-flecha1 {
     height: 37.5em;
     display: flex;
     justify-content:flex-end;
+    /* border: 3px solid yellow; */
 }
+
 .phone-img {
     display: flex;
     margin-bottom: 2em;
     align-self:center;
     width: 19.8em;
 }
+
 .logos-section {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 0 1em ;
     margin-bottom: 4em ;
+    /* border: 4px solid blue; */
+
 }
 .container-logos {
     max-width: 1024px;
     margin: 0 auto;
+    /* border: 3px solid yellowgreen; */
 }
+
 .logos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -330,6 +374,7 @@ img.start-flecha1 {
     row-gap: 0.93em;  
     margin-bottom: 4em; 
 }
+
 .logos-grid .item {
     width: 90%;
 }
@@ -417,6 +462,7 @@ img.start-flecha1 {
     justify-content:center;
     padding-left: 2.5em;
     }
+    
     .headline {
     font-size: 3.5em;
     padding:0.31em 1.1em 0 0;
@@ -446,6 +492,7 @@ img.start-flecha1 {
     margin-right: 1.5em;
     width: 15.8em;
     }
+    
     .logos-grid {
         display: grid;
         width: 100%;
@@ -475,6 +522,7 @@ img.start-flecha1 {
         letter-spacing: -0.30;
         width: 100%;
         margin: 0;
+
     }
     p.p-left {
         font-size: 1em;
@@ -496,7 +544,7 @@ img.start-flecha1 {
         line-height: 1.2;
     }
     .btn-contact-sales {
-    margin-left: 2em;
+      margin-left: 2em;
     }
     .logos-grid {
         display: grid;
@@ -544,6 +592,7 @@ img.start-flecha1 {
         text-align: center;
         line-height: 1.2;
     }
+    
     .logos-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -563,6 +612,7 @@ img.start-flecha1 {
     }
     .column-left {
         width: 18em;
+
     }
     .info-left {
         padding: 0 1em 0 1em;
@@ -598,6 +648,7 @@ img.start-flecha1 {
         row-gap: 1em;
         margin-top: -4.9em;
         margin-bottom: 4em;  
+
     }
     .logos-grid .item {
         width: 100%;
@@ -608,12 +659,12 @@ img.start-flecha1 {
 .background-2 {
     background-color: #0A2540;
     font-size: 16px;
-    z-index: -1;
+    z-index: 1;
 }
 .bgf-section2 {
     width: 100%;
     background-color: #f7f9fc;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
     z-index: -1;
 }
 .section-up {
@@ -627,6 +678,7 @@ img.start-flecha1 {
 .container-up {
     width: 93%;
     padding: 0 0.1em; 
+
 }
 .subtitle {
     color:#6762F7;
@@ -641,24 +693,29 @@ img.start-flecha1 {
     line-height: 1.4;
     margin: 0.5em 0.31em 1em 0.4em;
 }
+
 .col-left2 p {
     font-size: 1.05em;
     margin: 1em 0.51em;
 }
+
 .col-left2 a {
     color: #6762F7;
     text-decoration: none;
     font-weight: 500;
 }
+
 .col-right2 p {
     font-size: 1.05em;
     margin: 1em 0.51em;
 }
+
 .col-right2 a {
     color: #6762F7;
     text-decoration: none;
     font-weight: 500;
 }
+
 .btn-start2 {
     background-color:#6762F7;
     color: white;
@@ -676,6 +733,7 @@ img.start-flecha1 {
     margin-bottom: 3em;
     overflow: hidden;
 }
+
 .btn-start2:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -683,12 +741,14 @@ img.start-flecha1 {
     border-bottom: blueviolet;
     color:greenyellow;
 }
+
 img.start2-flecha2 {
     transition: ease-in-out 0.4s;
 }
 .btn-start2:hover .start2-flecha2 {
     transform: translateX(0.31em);
 }
+
 .imgs-section2 {
     width: 100%;
     display:flex;
@@ -718,6 +778,7 @@ img.start2-flecha2 {
 .slack {
     grid-area: 1/3/4/7;
     width:80%;
+    height: 60%;
     border-radius: 1em;
 }
 .phone2 {
@@ -728,11 +789,13 @@ img.start2-flecha2 {
 .dash {
     grid-area: 3/3/7/7;
     width: 80%;
-    margin-top: 1em;
+    height: 45%;
+    margin-top: -0.6em;
     border-radius: 1em;
 }
 
 @media screen and (min-width: 768px) {
+
     .container-up {
         width: 97%;
         padding: 0 0.1em; 
@@ -772,6 +835,7 @@ img.start2-flecha2 {
     .dash {
     width: 90%;
     height: 45%;
+    margin-top: -2.7em;
     }
     .bgf-section2 {
     width: 100%;
@@ -789,8 +853,8 @@ img.start2-flecha2 {
         width: 87%;
     }
     .slack {
-        width: 98%;
-        height: 76%;
+        width: 85%;
+        height: 65%;
         border-radius: 0.5;
     }
     .phone2 {
@@ -798,8 +862,9 @@ img.start2-flecha2 {
     }
     .dash {
         margin-top: 2em;
-        width: 98%;
-        height: 53%;
+        width: 85%;
+        height: 50%;
+        margin-top: -1em;
     }
     .bgf-section2 {
         width: 100%;
