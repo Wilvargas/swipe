@@ -352,15 +352,11 @@ img.start-flecha1 {
     justify-content: center;
     padding: 0 1em ;
     margin-bottom: 4em ;
-    /* border: 4px solid blue; */
-
 }
 .container-logos {
     max-width: 1024px;
     margin: 0 auto;
-    /* border: 3px solid yellowgreen; */
 }
-
 .logos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -369,7 +365,6 @@ img.start-flecha1 {
     row-gap: 0.93em;  
     margin-bottom: 4em; 
 }
-
 .logos-grid .item {
     width: 90%;
 }
@@ -1013,7 +1008,106 @@ img.explore-flecha3 {
 .btn-explore:hover .explore-flecha3 {
     transform: translateX(0.31em);
 }
+@media screen and (min-width: 768px) {
+    .bgf-section3 {
+        width: 100%;
+        background-color: #0A2540;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+        z-index: -1;
+    }
+    .section3 {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns:50% 50% ;
+    }
+    .col-left3 {
+        margin-top: 6em;
+    }
+    .col-left3 p {
+        margin-top: 0.5em;
+    }
+    .btn-start3 {
+        width: 7.5em;
+        height: 2.35em;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 1.5em;
+    }
+    
+    .grid3-icons {
+        width: 100%;
+        height: 17em;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+        overflow: hidden;
+        column-gap: 1em;
+        row-gap: 0.2em;
+    }
+    .grid3-icons h3 {
+        font-size: 1.5em;
+    }
+    .tools-icon {
+        width: 25%;
+        grid-area: 1/1/2/2;
+        margin-top: 0.78em;
+    }
+    .tools-icon h3 {
+        grid-area: 2/1/3/2;
+        font-size: 1.2em;
+    }
+    .weoffer {
+        grid-area: 3/1/4/2;
+        font-size: 0.7em;
+        margin-top: -1em;;
+    }
+    .btn-see {
+        grid-area: 4/1/5/2;
+        font-size: 0.9em;
+    }
+    .cube-icon {
+        width: 25%;
+        grid-area: 1/2/2/3;
+        margin-top: 0.5em;
+    }
+    .cube-icon h3 {
+        grid-area: 1/2/2/3;
+        font-size: 1.2em;
+    }
+    .useIntegrations {
+        grid-area: 3/2/4/3;
+        font-size: 0.7em;
+        margin-top: -2.3em;
 
+    }
+    .btn-explore {
+        grid-area: 4/2/5/3;
+        font-size: 0.9em;
+    }
+    .col-right {
+        display: block;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 98%;
+        margin-top: 8em;
+        margin-left:1em ;
+    }
+    .api-code {
+        width: 100%;
+        border-radius: 1em;
+        margin-top: -1em;
+    }
+    .terminal-code {
+        width: 100%;
+        height: 78%;
+        border-radius: 1em;
+        margin-top: -3.9em;
+        margin-bottom: 9em;
+    }
+    
+
+}
 
 
 
