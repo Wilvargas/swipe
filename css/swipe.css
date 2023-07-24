@@ -664,7 +664,7 @@ img.start-flecha1 {
 .bgf-section2 {
     width: 100%;
     background-color: #f7f9fc;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
     z-index: -1;
 }
 .section-up {
@@ -778,6 +778,7 @@ img.start2-flecha2 {
 .slack {
     grid-area: 1/3/4/7;
     width:80%;
+    height: 60%;
     border-radius: 1em;
 }
 .phone2 {
@@ -788,7 +789,8 @@ img.start2-flecha2 {
 .dash {
     grid-area: 3/3/7/7;
     width: 80%;
-    margin-top: 1em;
+    height: 45%;
+    margin-top: -0.6em;
     border-radius: 1em;
 }
 
@@ -833,6 +835,7 @@ img.start2-flecha2 {
     .dash {
     width: 90%;
     height: 45%;
+    margin-top: -2.7em;
     }
     .bgf-section2 {
     width: 100%;
@@ -850,8 +853,8 @@ img.start2-flecha2 {
         width: 87%;
     }
     .slack {
-        width: 98%;
-        height: 76%;
+        width: 85%;
+        height: 65%;
         border-radius: 0.5;
     }
     .phone2 {
@@ -859,13 +862,14 @@ img.start2-flecha2 {
     }
     .dash {
         margin-top: 2em;
-        width: 98%;
-        height: 53%;
+        width: 85%;
+        height: 50%;
+        margin-top: -1em;
     }
     .bgf-section2 {
         width: 100%;
         background-color: #f7f9fc;
         clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
         z-index: -1;
-}
+    }
 }
