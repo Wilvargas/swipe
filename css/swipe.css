@@ -1022,7 +1022,7 @@ img.explore-flecha3 {
         display: flex;
         justify-content: center;
         display: grid;
-        grid-template-columns:50% 50% ;
+        grid-template-columns:50% 50%;
     }
     .col-left3 {
         margin-top: 6em;
@@ -1054,13 +1054,13 @@ img.explore-flecha3 {
     .tools-icon {
         width: 25%;
         grid-area: 1/1/2/2;
-        margin-top: 0.78em;
+        margin-top: 0.95em;
     }
     .tools-icon h3 {
         grid-area: 2/1/3/2;
         font-size: 1.2em;
     }
-    .weoffer {
+    .p-weoffer {
         grid-area: 3/1/4/2;
         font-size: 0.7em;
         margin-top: -1em;;
@@ -1072,17 +1072,16 @@ img.explore-flecha3 {
     .cube-icon {
         width: 25%;
         grid-area: 1/2/2/3;
-        margin-top: 0.5em;
+        margin-top: 0.7em;
     }
     .cube-icon h3 {
         grid-area: 1/2/2/3;
         font-size: 1.2em;
     }
-    .useIntegrations {
+    .p-useIntegrations {
         grid-area: 3/2/4/3;
         font-size: 0.7em;
         margin-top: -2.3em;
-
     }
     .btn-explore {
         grid-area: 4/2/5/3;
@@ -1109,9 +1108,50 @@ img.explore-flecha3 {
         margin-bottom: 9em;
     }
 }
-
-
-
-
-
-
+@media screen and (min-width: 1024px) {
+    .section3 {
+        display: grid;
+        grid-template-columns:55% 45%;
+    }
+    .btn-start3 {
+        margin-top: 3em ;
+    }
+    .col-left3 {
+        margin-left: -0.8em;
+    }
+    .grid3-icons {
+        row-gap: 1em;
+        height: 21em;
+        width: 100%;
+    }
+    .tools-icon {
+        width: 20%;
+        margin-top: 3em;
+    }
+    .cube-icon {
+        width: 20%;
+        margin-top: 3em;
+    }
+    .grid3-icons h3 {
+        font-size: 2em;
+    }
+    .paragraph3 {
+        font-size: 1em;
+        margin: 0.1em 0.1em;
+    }
+    .btn-see {
+        margin-top: 0.2em;
+    }
+    .btn-explore {
+        margin-top: 0.2em;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .grid3-icons {
+        font-size: 1.1em;
+        margin-top: -2em;
+    }
+    .paragraph3 {
+        font-size: 1rem;
+    }
+}
