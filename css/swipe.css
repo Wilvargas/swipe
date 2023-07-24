@@ -1115,4 +1115,60 @@ img.explore-flecha3 {
     .paragraph3 {
         font-size: 1rem;
     }
+
+    /* SECTION -4 -WHY SWIPE */
 }
+.background-4 {
+    background-color: #0A2540;
+    font-size: 16px;
+    z-index: 1;
+}
+.bgf-section4 {
+    display: grid;
+    width: 100%;
+    background-color: #f7f9fc;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+    z-index: -1;
+}
+.why-swipe {
+    font-size:1em;
+    color: #6962F7;
+    font-weight: 500;
+    padding: 1rem 0 1rem 1rem;
+}
+.h2-tech {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 0 0 1rem 1rem;
+}
+.container-grid4 {
+    width: 90%;
+    display: grid;
+    grid-template-rows:1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr;
+    margin:0 1rem 3rem 1rem;
+    font-size: 16px;
+}
+.img4-1 {
+    width: 13%;
+    grid-row: 1; 
+}
+.h3-section4 {
+    font-size: 1em;
+}
+.p-section4 {
+    font-size: 0.89em;
+} 
+.img4-2 {
+    width: 13%;
+    grid-row: 4;
+}.img4-3 {
+    width: 13%;
+    grid-row: 7;
+}.img4-4 {
+    width: 13%;
+    grid-row: 10;
+}
+
+
+
