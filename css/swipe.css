@@ -1133,13 +1133,13 @@ img.explore-flecha3 {
 .why-swipe {
     font-size:1em;
     color: #6962F7;
-    font-weight: 500;
-    padding: 1rem 0 1rem 1rem;
+    font-weight: 600;
+    padding: 3rem 0 1rem 1rem;
 }
 .h2-tech {
     font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: -1px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
     padding: 0 0 1rem 1rem;
 }
 .container-grid4 {
@@ -1155,6 +1155,7 @@ img.explore-flecha3 {
 }
 .h3-section4 {
     font-size: 1em;
+    font-weight: 600;
 }
 .p-section4 {
     font-size: 0.89em;
@@ -1168,6 +1169,9 @@ img.explore-flecha3 {
 }.img4-4 {
     width: 13%;
     grid-row: 10;
+}
+.img4 {
+    margin-bottom: 0.5rem;
 }
 
 
