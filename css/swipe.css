@@ -1130,6 +1130,11 @@ img.explore-flecha3 {
     clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
     z-index: -1;
 }
+.section-4 {
+    width: 100%;
+    padding: 0.1rem;
+    border: 2px solid black;
+}
 .why-swipe {
     font-size:1em;
     color: #6962F7;
@@ -1142,7 +1147,7 @@ img.explore-flecha3 {
     letter-spacing: 0.3px;
     padding: 0 0 1rem 1rem;
 }
-.container-grid4 {
+.container-grid-4 {
     width: 90%;
     display: grid;
     grid-template-rows:1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr;
@@ -1174,5 +1179,40 @@ img.explore-flecha3 {
     margin-bottom: 0.5rem;
 }
 
+@media screen and (min-width: 768px) {
+    .container-grid-4 {
+        width: 90%;
+        height: 90%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 12.5% 62.5%;
+        overflow-wrap: hidden;
+    }
+    /* medidas generales */
+    .h3-section4 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .p-section4 {
+        font-size: 0.80em;
+    } 
+    .img4 {
+        margin-bottom: 0.5rem;
+        width: 13%;
+    }
+    .img4-1 {
+        grid-area:1/1/2/2 ;
+    }
+    #h3-1 {
 
+    }
+    .img4-2 {
+        grid-area: 1/2/2/3
+    }.img4-3 {
+        grid-area: 4/1/5/2;
+    }.img4-4 {
+        grid-area: 4/2/5/3;
+    }
+    
+}
 
