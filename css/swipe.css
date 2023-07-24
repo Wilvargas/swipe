@@ -836,6 +836,9 @@ img.start2-flecha2 {
 }
 
 @media screen and (min-width: 1024px) {
+    .hamb {
+        display: none;
+    }
     .imgs-section2 {
         width: 100%;
     }
