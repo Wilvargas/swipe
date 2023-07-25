@@ -1135,7 +1135,7 @@ img.explore-flecha3 {
     z-index: -1;
 }
 .section-4 {
-    width: 100%;
+    width: 100vw;
     padding: 0.1rem;
     border: 2px solid black;
 }
@@ -1184,6 +1184,18 @@ img.explore-flecha3 {
 }
 
 @media screen and (min-width: 768px) {
+    .bgf-section4 {
+        display: grid;
+        width: 100vw;
+        height: 90vw;
+        background-color: #f7f9fc;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 82%, -1% 100%);
+        z-index: -1;
+        } 
+    .section-4 {
+        width: 100vw;
+        height: 90vw;
+    }
      .h2-tech {
         font-size: 2rem;
         margin-bottom: 1.5rem;
@@ -1202,7 +1214,6 @@ img.explore-flecha3 {
         column-gap: 1rem;
         margin-bottom: 10rem;
     }
-  
     .p-section4 {   /* medida general */
         font-size: 0.86rem;
     }
@@ -1247,14 +1258,6 @@ img.explore-flecha3 {
     }
     .p4-4 {
         grid-area: 6/2/7/3;
-    } 
-    .bgf-section4 {
-    display: grid;
-    width: 100vw;
-    height: 100vw;
-    background-color: #f7f9fc;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 82%, -1% 100%);
-    z-index: -1;
     } 
 }
 @media screen and (min-width: 1024px) {
