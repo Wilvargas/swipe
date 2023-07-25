@@ -613,7 +613,7 @@ img.start-flecha1 {
     z-index: 1;
 }
 .bgf-section2 {
-    width: 100%;
+    width: 100vw;
     background-color: #f7f9fc;
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
     z-index: -1;
@@ -627,7 +627,7 @@ img.start-flecha1 {
     position: relative;
 }
 .container-up {
-    width: 93%;
+    width: 93vw;
     padding: 0 0.1em; 
 
 }
@@ -748,7 +748,7 @@ img.start2-flecha2 {
 @media screen and (min-width: 768px) {
 
     .container-up {
-        width: 97%;
+        width: 97vw;
         padding: 0 0.1em; 
     }
     .columns-p {
@@ -789,7 +789,7 @@ img.start2-flecha2 {
     margin-top: -2.7em;
     }
     .bgf-section2 {
-    width: 100%;
+    width: 100vw;
     background-color: #f7f9fc;
     clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 0% 100%);
     z-index: -1;
@@ -821,7 +821,7 @@ img.start2-flecha2 {
         margin-top: -1em;
     }
     .bgf-section2 {
-        width: 100%;
+        width: 100vw;
         background-color: #f7f9fc;
         clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
         z-index: -1;
@@ -835,7 +835,7 @@ img.start2-flecha2 {
     z-index: 1;
 }
 .bgf-section3 {
-    width: 100%;
+    width: 100vw;
     background-color: #0A2540;
     clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
     z-index: -1;
@@ -907,7 +907,7 @@ img.start3-flecha3 {
 .grid3-icons h3 {
     color: white;
     font-size: 1em;
-    margin: 0em 0 1.2em 0;
+    margin: 0em 0 1.6em 0;
 }
 .btn-see {
     background-color: transparent;
@@ -947,8 +947,8 @@ img.see-flecha3 {
 .btn-explore {
     background-color: transparent;
     border: none;
-    border-radius: 1.12em;
-    width: 10em;
+    border-radius: 1.12rem;
+    width: 10rem;
     height: 2.37em;
     font-size: 1rem;
     font-weight: bold;
@@ -956,7 +956,7 @@ img.see-flecha3 {
     align-items:center;
     justify-content: center; 
     overflow: hidden;  
-    margin: -0.5em 0 2em -0.5em;
+    margin: -0.5rem 0 5rem -0.5rem;
 }
 .btn-explore a {
     color: #00D4FF;
@@ -974,19 +974,21 @@ img.explore-flecha3 {
 }
 @media screen and (min-width: 768px) {
     .bgf-section3 {
-        width: 100%;
+        width: 100vw;
         background-color: #0A2540;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
         z-index: -1;
     }
     .section3 {
+        width: 93vw;
+        height: 100vw;
         display: flex;
         justify-content: center;
         display: grid;
         grid-template-columns:50% 50%;
     }
     .col-left3 {
-        margin-top: 6em;
+        margin-top: 4em;
     }
     .col-left3 p {
         margin-top: 0.5em;
@@ -1008,6 +1010,7 @@ img.explore-flecha3 {
         overflow: hidden;
         column-gap: 1em;
         row-gap: 0.2em;
+        
     }
     .grid3-icons h3 {
         font-size: 1.5em;
@@ -1116,16 +1119,17 @@ img.explore-flecha3 {
         font-size: 1rem;
     }
 
-    /* SECTION -4 -WHY SWIPE */
+    /* SECCION -4 -WHY SWIPE */
 }
 .background-4 {
+    width: 100vw;
     background-color: #0A2540;
     font-size: 16px;
     z-index: 1;
 }
 .bgf-section4 {
     display: grid;
-    width: 100%;
+    width: 100vw;
     background-color: #f7f9fc;
     clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
     z-index: -1;
@@ -1150,8 +1154,8 @@ img.explore-flecha3 {
 .container-grid-4 {
     width: 90%;
     display: grid;
-    grid-template-rows:1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr 1fr 0.5fr 2fr;
-    margin:0 1rem 3rem 1rem;
+    grid-template-rows: repeat (4, 1fr 0.5fr 2fr 1fr);
+    margin:0 1rem 4.5rem 1rem;
     font-size: 16px;
 }
 .img4-1 {
@@ -1180,39 +1184,188 @@ img.explore-flecha3 {
 }
 
 @media screen and (min-width: 768px) {
-    .container-grid-4 {
-        width: 90%;
-        height: 90%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 25% 12.5% 62.5%;
-        overflow-wrap: hidden;
-    }
-    /* medidas generales */
-    .h3-section4 {
+     .h2-tech {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+     }
+     .h3-section4 { /* medida general */
         font-size: 1rem;
         font-weight: 600;
     }
-    .p-section4 {
-        font-size: 0.80em;
-    } 
-    .img4 {
-        margin-bottom: 0.5rem;
-        width: 13%;
+    .container-grid-4 {
+        width: 90%;
+        height: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 0.4fr 0.3fr 0.62fr);
+        overflow-y: hidden;
+        column-gap: 1rem;
+        margin-bottom: 10rem;
     }
+  
+    .p-section4 {   /* medida general */
+        font-size: 0.86rem;
+    }
+    .img4 {
+        margin-bottom: 0.02rem;
+        width: 12%;
+    }
+     /* medidas específicas */
+
     .img4-1 {
         grid-area:1/1/2/2 ;
     }
-    #h3-1 {
-
+    .container-grid-4.h3-efficient {
+        grid-area: 2/1/3/2;
+    }
+    .p4-1 {
+        grid-area: 3/1/4/2;
     }
     .img4-2 {
         grid-area: 1/2/2/3
-    }.img4-3 {
+    }
+    .container-grid-4.h3-fast {
+        grid-area: 2/1/3/3;
+    }
+    .p4-2 {
+        grid-area: 3/2/4/2;
+    }
+    .img4-3 {
         grid-area: 4/1/5/2;
-    }.img4-4 {
+    }
+    .container-grid.h3-tried {
+        grid-area:5/1/6/2;
+    }
+    .p4-3 {
+        grid-area: 6/1/7/2;
+    }
+    .img4-4 {
         grid-area: 4/2/5/3;
     }
-    
+    .container-grid.h3-tried {
+        grid-area:5/2/6/3;
+    }
+    .p4-4 {
+        grid-area: 6/2/7/3;
+    } 
+    .bgf-section4 {
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    background-color: #f7f9fc;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 82%, -1% 100%);
+    z-index: -1;
+    } 
+}
+@media screen and (min-width: 1024px) {
+    .bgf-section4 {
+    display: grid;
+    width: 100vw;
+    height: 57vw;
+    background-color: #f7f9fc;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 73%, -1% 100%);
+    z-index: -1;
+    } 
+    .section-4 {
+        width: 100vw;
+        height: 57vw;
+        padding: 4rem;
+    }
+    .why-swipe {
+        padding-top: 6rem;
+        margin-bottom: 0.2rem;
+    }
+    .h2-tech {
+        font-size: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+     .h3-section4 { /* medida general */
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.7rem;
+    }
+    .container-grid-4 {
+        width: 96%;
+        height: 35%;
+        display: grid;
+        grid-template-columns: 1.7fr 1.7fr 1.7fr 1.7fr;
+        grid-template-rows: 0.12fr 0.08fr 0.08fr;
+        overflow-x: hidden;
+        column-gap: 1.50rem;
+        margin: 0 0 2rem 1rem;
+    }
+    .p-section4 {   /* medida general */
+        font-size: 0.90rem;
+        text-align: justify;
+    }
+    .img4 {
+        margin-bottom: 1rem;
+        width: 23%;
+    }
+     /* medidas específicas */
+    .img4-1 {
+        grid-area:1/1/2/2 ;
+    }
+    .container-grid-4.h3-efficient {
+        grid-area: 2/1/3/2;
+    }
+    .p4-1 {
+        grid-area: 3/1/4/2;
+    }
+    .img4-2 {
+        grid-area: 1/2/2/3
+    }
+    .container-grid-4.h3-fast {
+        grid-area: 2/2/3/3;
+    }
+    .p4-2 {
+        grid-area: 3/2/4/3;
+    }
+    .img4-3 {
+        grid-area: 1/3/2/4;
+    }
+    .container-grid.h3-tried {
+        grid-area:2/3/3/4;
+    }
+    .p4-3 {
+        grid-area: 3/3/4/4;
+    }
+    .img4-4 {
+        grid-area: 1/4/2/5;
+    }
+    .container-grid.h3-tried {
+        grid-area:2/4/3/5;
+    }
+    .p4-4 {
+        grid-area: 3/4/4/5;
+    }  
+}
+@media screen and (min-width: 1440px) {
+    .bgf-section4 {
+        display: grid;
+        width: 100vw;
+        height: 70vw;
+        background-color: #f7f9fc;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 73%, -1% 100%);
+        z-index: -1;
+    } 
+    .section-4 {
+        width: 100vw;
+        height: 70vw;
+        padding: 4rem;
+    }
+    .why-swipe {
+        padding-top: 6rem;
+        margin-bottom: 0.2rem;
+    }
+    .h2-tech {
+        font-size: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+     .h3-section4 { /* medida general */
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.7rem;
+    }
 }
 
