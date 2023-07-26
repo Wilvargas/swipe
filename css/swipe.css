@@ -1119,20 +1119,18 @@ img.explore-flecha3 {
         font-size: 1rem;
     }
 
-    /* SECCION -4 -WHY SWIPE */
+    /* SECCION-4-WHY SWIPE */
 }
 .background-4 {
     width: 100vw;
     background-color: #0A2540;
     font-size: 16px;
-    z-index: 1;
 }
 .bgf-section4 {
     display: grid;
     width: 100vw;
     background-color: #f7f9fc;
     clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
-    z-index: -1;
 }
 .section-4 {
     width: 100vw;
@@ -1186,7 +1184,7 @@ img.explore-flecha3 {
     .bgf-section4 {
         display: grid;
         width: 100vw;
-        height: 90vw;
+        height: 100vw;
         background-color: #f7f9fc;
         clip-path: polygon(0% 0%, 100% 0%, 100% 82%, -1% 100%);
         z-index: -1;
@@ -1370,4 +1368,190 @@ img.explore-flecha3 {
         margin-bottom: 1.7rem;
     }
 }
+
+
+
+/* SECCION-5 - GLOBAL SCALE */
+.background-5 {
+    width: 100vw;
+    background-color: #0A2540;
+    font-size: 16px;
+    z-index: 1;
+}
+.section5-container {
+    width: 100vw;
+    padding: 0.01rem 0.01rem ;
+    display: flex;
+    justify-content: center;
+}
+.section5-columns {
+    width: 95vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.p-4 {
+    color:#00D4FF;
+    font-size: 1rem;
+    margin: 03rem 0 0 -0.9rem
+}
+.structure {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0.9rem 1.5rem 0.5rem;
+}
+.swipe-makes {
+    color: white;
+    font-weight: 500;
+    margin: 0 0.9rem 3rem 0.5rem;
+    text-align: justify;
+    overflow:hidden ;
+}
+.swipe-makes a {
+    text-decoration: none;
+}
+.container-info {
+    display: grid;
+    grid-template-rows: repeat(4, 0.8fr 0.12fr);
+    margin: 0 0.5rem 3rem 0.5rem;
+    row-gap: 1rem;
+}
+/* Generalidades */
+.h3-info {
+    color: white;
+    margin: 0 0;
+    font-size: 1rem;
+    border-left: 2px solid #00D4FF;
+    padding: 0.6rem;
+}
+.p-info {
+    color:white;
+    margin: 0 0;
+    font-size: 0.9rem;
+}
+/* particularidades */
+.h3-1 {
+    grid-area: 1/1/2/2;
+    text-align: left;
+}
+.p-1 {
+    grid-area: 2/1/3/2;
+}
+
+.h3-2 {
+    grid-area: 3/1/4/2;
+}
+.p-2 {
+    grid-area: 4/1/5/2;
+}
+.h3-3 {
+    grid-area: 5/1/6/2;
+}
+.p-3 {
+    grid-area: 6/1/7/2;
+}
+.h3-4 {
+    grid-area: 7/1/8/2;
+    
+}
+.p-4 {
+    grid-area: 8/1/9/2;
+}
+.globo {
+    max-width: 50.5rem;
+    opacity: 9%;
+    position: absolute;
+    top: 13%;
+    left: 4%;
+}
+
+@media screen and (min-width: 768px) {
+    .section5-columns {
+        width: 95vw;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* border: 2px solid red; */
+    }
+    .p-4 {
+        color:#00D4FF;
+        font-size: 1rem;
+        margin: 3rem 0 0 -0.9rem
+    }
+    .structure {
+        color: white;
+        font-size: 1.9rem;
+        font-weight: 700;
+        margin: 0 0.9rem 1.5rem 0.5rem;
+    }
+    .swipe-makes {
+        color: white;
+        font-weight: 500;
+        margin: 0 0.9rem 3rem 0.5rem;
+        text-align: justify;
+        overflow:hidden ;
+    }
+    .swipe-makes a {
+        text-decoration: none;
+    }
+    .container-info {
+        display: grid;
+        grid-template-rows: repeat(4, 0.8fr 0.12fr);
+        margin: 0 0.5rem 3rem 0.5rem;
+        row-gap: 1rem;
+    }
+    /* Generalidades */
+    .h3-info {
+        color: white;
+        margin: 0 0;
+        font-size: 1rem;
+        border-left: 2px solid #00D4FF;
+        padding: 0.6rem;
+    }
+    .p-info {
+        color:white;
+        margin: 0 0;
+        font-size: 0.9rem;
+    }
+    /* particularidades */
+    .h3-1 {
+        grid-area: 1/1/2/2;
+        text-align: left;
+    }
+    .p-1 {
+        grid-area: 2/1/3/2;
+    }
+    
+    .h3-2 {
+        grid-area: 3/1/4/2;
+    }
+    .p-2 {
+        grid-area: 4/1/5/2;
+    }
+    .h3-3 {
+        grid-area: 5/1/6/2;
+    }
+    .p-3 {
+        grid-area: 6/1/7/2;
+    }
+    .h3-4 {
+        grid-area: 7/1/8/2;
+        
+    }
+    .p-4 {
+        grid-area: 8/1/9/2;
+    }
+    .globo {
+        max-width: 50.5rem;
+        opacity: 9%;
+        position: absolute;
+        top: 13%;
+        left: 4%;
+    }
+}
+
+
 
