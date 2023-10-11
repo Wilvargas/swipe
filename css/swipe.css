@@ -430,7 +430,7 @@ img.start-flecha1 {
         display: grid;
         grid-template-columns: 33% 67% ;
         align-items:flex-start;
-        margin: 0.em 0 5.7em;
+        margin: 0 0 5.7em;
         padding-top: 1.59em; 
     }
     .column-right {
@@ -473,7 +473,6 @@ img.start-flecha1 {
         letter-spacing: -0.30;
         width: 100%;
         margin: 0;
-
     }
     p.p-left {
         font-size: 1em;
@@ -629,7 +628,6 @@ img.start-flecha1 {
 .container-up {
     width: 93vw;
     padding: 0 0.1em; 
-
 }
 .subtitle {
     color:#6762F7;
@@ -684,7 +682,6 @@ img.start-flecha1 {
     margin-bottom: 3em;
     overflow: hidden;
 }
-
 .btn-start2:hover {
     opacity: 0.77;
     cursor: pointer;
@@ -692,14 +689,12 @@ img.start-flecha1 {
     border-bottom: blueviolet;
     color:greenyellow;
 }
-
 img.start2-flecha2 {
     transition: ease-in-out 0.4s;
 }
 .btn-start2:hover .start2-flecha2 {
     transform: translateX(0.31em);
 }
-
 .imgs-section2 {
     width: 100%;
     display:flex;
@@ -827,7 +822,6 @@ img.start2-flecha2 {
         z-index: -1;
     }
 }
-
 /* SECCION-3 INTEGRATIONS */
 .background-3 {
     background-color: #f7f9fc;
@@ -1119,7 +1113,6 @@ img.explore-flecha3 {
         font-size: 1rem;
     }
 }
-
 /* SECCION-4-WHY SWIPE */
 .background-4 {
     width: 100vw;
@@ -1273,7 +1266,7 @@ img.explore-flecha3 {
     }
     .why-swipe {
         padding-top: 6rem;
-        margin-bottom: 0.2rem;
+        margin-top: -5rem;
     }
     .h2-tech {
         font-size: 2.5rem;
@@ -1368,8 +1361,6 @@ img.explore-flecha3 {
         margin-bottom: 1.7rem;
     }
 }
-
-
 
 /* SECCION-5 - GLOBAL SCALE */
 .background-5 {
@@ -1655,4 +1646,692 @@ img.explore-flecha3 {
     }
 }
 
+/* SECCION-6- VIRTUAL EVENTS */
 
+.ves {
+    width: 100vw;
+    font-size: 16px;
+}
+
+.section-container {
+    margin: 1rem 1.5rem 0 1rem;
+}
+
+.col-left6-1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.virtual {
+    color: #6762F7;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.check {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.p-virtual {
+    font-size: 1rem;
+}
+
+.btn-start6 {
+    background-color:#6762F7;
+    color: white;
+    border: none;
+    border-radius: 1.12em;
+    width: 8.62em;
+    height: 2.37em;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+    display: flex;
+    align-items:center;
+    justify-content: center;  
+    margin: 2em 0;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+.btn-start6:hover {
+    cursor: pointer;
+    background-color: rgb(42, 42, 42);
+    border-bottom: blueviolet;
+    color:greenyellow;
+}
+img.start6-flecha6 {
+    transition: ease-in-out 0.4s;  
+} 
+.btn-start6:hover .start6-flecha6 {
+    transform: translateX(0.31em);
+}
+
+.swipe-card-section {
+    background-color: transparent;
+    width: 90vw;
+    display: grid; 
+    border-radius: 6%;
+    height: 380px;
+    text-align: center;
+    color: black;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: -2rem;
+}
+
+.card-top {
+    background: radial-gradient(ellipse at top, rgb(48, 77, 162), rgb(69, 82, 222), rgb(85, 96, 223),rgb(118, 108, 212), rgb(124, 133, 217), rgb(54, 168, 249)), rgb(50, 122, 205);
+    animation: animate 26s linear infinite; /* Utilizamos "linear" para una animación uniforme */
+    width: 90vw;
+    height: 65%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: -1;
+    position: relative;
+}
+.img-sessions {
+    width: 16rem;
+    margin-top: 3rem;
+}
+.imgwomen {
+    width: 28%;
+    margin-top: 2rem;
+
+}
+.imgmen {
+    width: 28%;
+    margin-left: -1.5rem;
+    margin-top: 2rem;
+}
+
+.subtitle1 {
+    color: #6762F7;
+    font-weight: 500;
+    margin-top: -3rem;
+}
+.secondary-text0 {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px 10px;
+    margin-top: -1rem;
+    justify-content: center;
+}
+
+/* SECCION 6 - VIRTUAL EVENTS MOBILE */
+.h2-what {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.p-explore {
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    width: 87%;
+}
+
+.p-explore a {
+    color: #6762F7;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.btn-start6-1 {
+    background-color: #6762F7;
+    color: white;
+    border: none;
+    border-radius: 1.12em;
+    width: 8.6em;
+    height: 2.37em;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    overflow: hidden;  
+    margin-top: 0.2rem; 
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.btn-start6-1:hover {
+    cursor: pointer;
+    background-color: rgb(42, 42, 42);
+    border-bottom: blueviolet;
+    color:greenyellow;
+}
+img.start6-1-flecha6-1 {
+    transition: ease-in-out 0.4s;  
+} 
+.btn-start6-1:hover .start6-1-flecha6-1 {
+    transform: translateX(0.31em);
+}
+
+.shield-icon {
+    width: 20%;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+}
+.h3-always {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+.secondary-text1 {
+    color: #adbdcc;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    width: 87%;
+}
+
+.btn-pricing-details {
+    background-color: transparent;
+    border: none;
+    border-radius: 1.12em;
+    width: 8.6em;
+    height: 2.37em;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    overflow: hidden;  
+    margin: -0.5em 0 2em 1rem;
+}
+.btn-pricing-details a {
+    color: #7000ff;
+    text-decoration: none;
+}
+.btn-pricing-details:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+img.flecha-pricing {
+    transition: ease-in-out 0.4s;  
+
+} 
+.btn-pricing-details:hover .flecha-pricing {
+    transform: translateX(0.31em);
+}
+
+.img-integration {
+    width: 20%;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+}
+
+.h3-Startintegration {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.btn-api-reference {
+    background-color:#6762F7;
+    color: white;
+    border: none;
+    border-radius: 1.12em;
+    width: 8.62em;
+    height: 2.37em;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+    display: flex;
+    align-items:center;
+    justify-content: center;  
+    margin: 2em 0;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+.btn-api-reference a {
+    text-decoration: none;
+    color: #7000ff;
+}
+.btn-api-reference:hover {
+    opacity: 0.77;
+    cursor: pointer;
+    border-bottom: rgb(167, 100, 233);
+    transform: translateX(0.31em);
+    transition: ease-in-out 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+    .section-container {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: 5fr 1fr;
+        grid-gap: 1rem;
+    }
+    .col-left6 {
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .virtual {
+        grid-area: 1/1/1/2;
+        font-size: 1.1rem;
+    }
+    .check {
+        grid-area: 1/2/2/3;
+        font-size: 2.1rem;
+    }
+    .p-virtual {
+        grid-area: 1/2/3/7;
+    }
+    .btn-start6 {
+        grid-area: 1/2/7/8;
+    }
+    .col-right6 {
+        grid-area: 2/3/1/8;
+    }
+    .swipe-card-section {
+        width: 100%;
+        right: -0.3rem;
+        margin-top: 2rem;
+    }
+    .card-top {
+        width: 100%;
+    }
+
+    /* GETTING STARTED SECTION  */
+    .section-container1 {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 1rem;
+        width: 100%;
+    }
+    .h2-what {
+        width: 150%;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .p-explore {
+        width: 130%;
+        margin-bottom: 1.7rem;
+    }
+    .col-left6-1 {
+        width: 40%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .col-right6-1 {
+        width: 60%;
+        margin-top: 1rem;
+        margin-left: -9rem ;
+    }
+    .shield-icon {
+        grid-area: 1/1/2/2;
+        width: 25%;
+        margin-top: 3rem;
+    }
+    .h3-always {
+        grid-area: 2/3/2/3;
+        width: 190%;
+        margin-top: -0.5rem;
+    }
+    .secondary-text1 {
+        grid-area: 3/4/2/3;
+        width: 190%;
+        margin-top: -0.3rem;
+
+    }
+    .btn-pricing-details {
+        grid-area: 4/5/2/3;
+        margin-top: -1rem;
+        margin-bottom: 0.3rem;
+    }    
+}
+
+@media screen and (min-width: 1024px){
+    .virtual {
+        font-size: 1.3rem;
+    }  
+    .check {
+        font-size: 3rem;
+        width: 130%;
+    }  
+    .p-virtual {
+        font-size: 1.3rem;
+    }
+    .swipe-card-section {
+        width: 90%;
+        height: 450px;
+        left: 4rem;
+    }
+    .secondary-text0 {
+        font-size: 1rem;
+        width: 50%;
+        text-align:center;
+        margin-left: 8rem;
+    }
+
+    .h2-what {
+        font-size: 3rem;
+        width: 170%;
+        margin-top: 1rem;
+    }
+    .p-explore {
+        width: 160%;
+        font-size: 1.3rem;
+    }
+    .shield-icon {
+        grid-area: 1/1/2/2;
+        width: 25%;
+        margin-top: 1rem; 
+    }
+    .h3-always {
+        grid-area: 2/3/2/3;
+        width: 190%;
+        margin-top: -0.5rem;
+        font-size: 1.3rem;
+    }
+    .secondary-text1 {
+        grid-area: 3/4/2/3;
+        width: 190%;
+        margin-top: -0.3rem;
+        font-size: 1.1rem;
+    }
+    .btn-pricing-details {
+        grid-area: 4/5/2/3;
+        margin-top: -1rem;
+        margin-bottom: 0.3rem;
+        font-size: 1.1rem;
+    }    
+    .img-integration {
+        grid-area: 1/3/2/4;
+    }
+    .h3-Startintegration {
+        font-size: 1.3rem;
+    }
+}
+/* FOOTER */
+.footer {
+    background-color: #F7F9FC;
+}
+.container-footer {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: repeat(14, 2rem);
+    gap: 0.5rem 0.5rem;
+    width: 100%;
+    height: 510px;
+}
+/* COL 1 IZQUIERDA MOBILE */
+.column-f1 {
+    grid-column:1;
+    grid-column-start:initial ;
+}
+.swipe-footer {
+    width: 40%;
+    grid-area: 1/1/2/2;
+    margin-top: 3.2rem;
+    margin-left: 0.5rem;
+}
+.icon-link {
+    margin-top: 2.2rem;
+}
+.arrow-simple {
+    width: 12%;
+    margin-left: 0.5rem;
+}
+.United-states {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+.globo-text {
+    width: 10%;
+    margin-left: 0.55rem;
+}
+.icon-link1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+/* COL 3 - IZQUIERDA MOBILE */
+.column-f3 {
+    grid-column:1;
+    grid-column-start:initial ;
+}
+.list7 {
+    font-size: 0.8rem;
+}
+.use-cases {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 0.5rem;
+    padding-top: 11rem;
+}
+.e-commerce {
+    font-size: 0.8rem;
+    margin-left: -1.3rem;
+    margin-top: 0.3rem;
+}
+.saas_1 {
+    font-size: 0.8rem;
+    margin-top: 2.2rem;
+    margin-left: -4.5rem;
+}
+.marketplace {
+    margin-top: 4.2rem;
+    margin-left: -1.8rem;
+}
+.embedded {
+    margin-top: 6.2rem;
+    margin-left: -4.7rem;
+}
+.crypto {
+    margin-top: 8.2rem;
+    margin-left: -7.1rem;
+}
+.creator {
+    margin-top: 10.2rem;
+    margin-left: -2.5rem;
+}
+
+.column-f2 {
+    grid-column:2;
+    grid-column-start:initial ;
+}
+.f-products {
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 3.6rem;
+}
+.atlas {
+    margin-top: -0rem;
+    margin-left: -2rem;
+}
+.billing {
+    margin-top: 2.2rem;
+    margin-left: -1.9rem;
+}
+.invoicing {
+    margin-top: 4rem;
+    margin-left: -2.2rem;
+}
+.payments {
+    margin-top: 6rem;
+    margin-left: -3.4rem;
+}
+.checkout {
+    margin-top: 8rem;
+    margin-left: -3.7rem;
+}
+.identity {
+    margin-top: 10rem;
+    margin-left: -3.5rem;
+}
+
+/* COL f4 - DERECHA */
+.column-f4 {
+    grid-column:2;
+    grid-column-start:initial ;
+}
+.resources {
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 15rem;
+}
+.support-center {
+    margin-top: 0.2rem;
+    margin-left: -2rem;
+}
+.guides {
+    margin-top: 2.2rem;
+    margin-left: -5.72rem;
+}
+.blog {
+    margin-top: 4.2rem;
+    margin-left: -2.6rem;
+}
+.licenses {
+    margin-top: 6.2rem;
+    margin-left: -1.7rem;
+}
+.p-y-terms {
+    margin-top: 8.2rem;
+    margin-left: -3.32rem;
+}
+.cookie-settings {
+    margin-top: 10.2rem;
+    margin-left: -6rem;
+}
+@media screen and (min-width: 768px) {
+    .column-f1 {
+        margin-left: 2rem;
+    }
+    .container-footer {
+        display: grid;
+        grid-template-columns: 25% 25% 23% 28%;
+        grid-template-rows: repeat(14, 2rem);
+        gap: 0.5rem 0.5rem;
+        width: 100%;
+        height: 400px;
+    }
+    .swipe-footer {
+        width: 70%;
+    }
+    .United-states {
+        font-size: 1rem;
+    }
+    .icon-link1 a {
+        font-size: 1rem;
+    }
+    .use-cases {
+        margin-top: -7.5rem;
+    }
+    .resources {
+        margin-top: 3.5rem;
+    }
+    .list7 {
+        font-size: 1rem;
+    }
+    .column-f2 {
+        margin-left: 2rem;
+    }
+    .atlas {
+        margin-top: -0rem;
+        margin-left: -2rem;
+    }
+    .billing {
+        margin-top: 2.2rem;
+        margin-left: -2.2rem;
+    }
+    .invoicing {
+        margin-top: 4rem;
+        margin-left: -2.7rem;
+    }
+    .payments {
+        margin-top: 6rem;
+        margin-left: -4rem;
+    }
+    .checkout {
+        margin-top: 8rem;
+        margin-left: -4.5rem;
+    }
+    .identity {
+        margin-top: 10rem;
+        margin-left: -4.2rem;
+    }
+    .use-cases {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 0.5rem;
+    padding-top: 11rem;
+    }
+    .e-commerce {
+        font-size: 0.8rem;
+        margin-left: -1.5rem;
+        margin-top: 0.3rem;
+        font-size: 1rem;
+    }
+    .saas_1 {
+        font-size: 0.8rem;
+        margin-top: 2.2rem;
+        margin-left: -5.6rem;
+        font-size: 1rem;
+    }
+    .marketplace {
+        margin-top: 4.2rem;
+        margin-left: -2.2rem;
+    }
+    .embedded {
+        margin-top: 6.2rem;
+        margin-left: -5.6rem;
+    }
+    .crypto {
+        margin-top: 8.2rem;
+        margin-left: -8.7rem;
+    }
+    .creator {
+        margin-top: 10.2rem;
+        margin-left: -3.1rem;
+    }
+    .column-f3 {
+        margin-left: -1rem;
+    }
+    .column-f4 {
+        margin-left: -1.4rem;
+    }
+    .guides {
+        margin-top: 2.2rem;
+        margin-left: -7rem;
+    }
+    .blog {
+        margin-top: 4.2rem;
+        margin-left: -3rem;
+    }
+    .licenses {
+        margin-top: 6.2rem;
+        margin-left: -2rem;
+    }
+    .p-y-terms {
+        margin-top: 8.2rem;
+        margin-left: -4rem;
+    }
+    .cookie-settings {
+        margin-top: 10.2rem;
+        margin-left: -7.3rem;
+    }
+}
